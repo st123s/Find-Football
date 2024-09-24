@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    background-color: lightblue;
+}
+
+h1, .barcelona-page h1 {
+    font-size: 95px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+.barcelona-page h1 {
+    color: #A50044;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+a {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.toolbar {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+.toolbar a {
+    color: white;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+
+/* Image Styles */
+img.logo {
+    position: absolute;
+    top: 60px;
+    right: 1700px;
+    width: 150px;
+}
+
+img.juve, img.real, img.bayern {
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+
+img.juve {
+    top: 400px;
+    right: 750px;
+}
+
+img.real, img.bayern {
+    top: 500px;
+    left: 750px;
+}
+
+.barcelona-page .barca {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+
+/* Box Styles */
+.box, .barcelona-page .box, .club-info, .barcelona-page .club-info {
+    background-color: hsl(140, 100%, 50%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    position: absolute;
+    color: #fff;
+}
+
+.barcelona-page .box, .barcelona-page .club-info {
+    background-color: #A50044;
+}
+
+
+/* Box Positioning */
+.box1 {
+    top: 240px;
+    left: 50px;
+}
+
+.box2 {
+    top: 400px;
+    right: 50px;
+}
+
+.box3 {
+    top: 600px;
+    left: 50px;
+}
+
+.box4 {
+    top: 700px;
+    right: 50px;
+}
+
+
+/* Specific Style for Barcelona Page */
+.barcelona-page .club-info {
+    top: 60px;
+    right: -600px;
+}
+
+
+/* Player Image */
+.player {
+    position: absolute;
+    top: 500px;
+    right: 770px;
+    width: 400px;
+    height: auto;
+}
